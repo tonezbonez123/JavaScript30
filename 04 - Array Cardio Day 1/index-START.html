@@ -85,19 +85,33 @@
 
     const deBoulevardsinParis = []
 
-    
+    if(document.querySelector('li').includes('de') === true){
+      deBoulevardsinParis.push(docuemnt.querySelector('li').innerText)
+    }
 
+    //check to see if 'de' is in boulevard name
+    //if so, push to new array, if not pass
 
+    console.log(deBoulevardsinParis)
 
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
 
+    let sortedPeople = people.sort()
+    console.log(sortedPeople)
 
 
     // 8. Reduce Exercise
     // Sum up  the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+
+    function sumOfArray(arr){
+      let sum = {}
+      for(let i = 0; i < arr.length; i++){
+        
+      }
+    }
 
 
 
